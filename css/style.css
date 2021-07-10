@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.caterings-image {
+    height: 195px;
+}
+
+.image-catering {
+    height: 480px;
+    width: 640px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+@media (max-width: 600px) {
+    #catering {
+        max-height: 395px;
+    }
+    .socialmedia_link {
+        height: 36px;
+        width: 36;
+    }
+    #catering {
+        margin-bottom: 1.5em;
+    }
+}
